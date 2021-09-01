@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CustomTheme from './Basic/CustomTheme';
+import Form from './Basic/Form';
+import GridDemo from './Basic/GridDemo';
+import OneTypography from './Basic/OneTypography';
+import SecondStyleHooks from './Basic/SecondStyleHooks';
+import Header from './components/ui/Header';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+  <OneTypography/>
+  <SecondStyleHooks/>
+  <CustomTheme/>
+  <Form/>
+  <GridDemo/>
+   </>
   );
 }
 
